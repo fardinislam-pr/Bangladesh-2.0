@@ -1,0 +1,107 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*  sheard style */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Fira Sans", "sans-serif";
+}
+
+.container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-primary {
+    background: #C6E4D6;
+    ;
+}
+
+.btn-primary {
+    padding: 17px 34px;
+    border-radius: 8px;
+    background: #006A50;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+}
+
+.text-canter {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.section-title {
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.desctiption {
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* hedar style */
+
+/* nav-bar style */
+nav {
+    padding: 24px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    color: #0E0E0E;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.sing-in-btn {
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: 1px solid #006A50;
+    background: none;
+    color: #006A50;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* banner style */
+
+.banner {
+    padding: 80px 90px;
+    justify-content: space-between;
+    border-radius: 24px;
+    margin-top: 20px;
+}
+
+.banner img{
+    height: 370px;
+}
+
+.banner-sub-title {
+    color: rgba(14, 14, 14, 0.50);
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.banner-title {
+    color: #0E0E0E;
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
