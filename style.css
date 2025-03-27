@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /*  sheard style */
+section {
+    margin-top: 80px;
+}
 
 * {
     padding: 0;
@@ -21,7 +24,14 @@ body {
 
 .bg-primary {
     background: #C6E4D6;
-    ;
+}
+
+.bg-blue {
+    background: rgba(84, 144, 245, 0.20);
+}
+
+.bg-yelow {
+    background: #F7EBCF;
 }
 
 .btn-primary {
@@ -48,10 +58,17 @@ body {
     font-weight: 700;
 }
 
-.desctiption {
+.description {
     color: rgba(14, 14, 14, 0.70);
     font-size: 16px;
     line-height: 24px;
+}
+
+.crad-title {
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 20px;
+    font-weight: 700;
+    margin: 24px 0 12px;
 }
 
 /* hedar style */
@@ -88,7 +105,7 @@ nav {
     margin-top: 20px;
 }
 
-.banner img{
+.banner img {
     height: 370px;
 }
 
@@ -105,3 +122,65 @@ nav {
     font-weight: 700;
     margin-bottom: 24px;
 }
+
+/* Pillars of "Bangladesh 2.0" */
+
+.pillars-card-container {
+    justify-content: space-between;
+    margin-top: 32px;
+    gap: 24px;
+}
+
+.pillars-card {
+    padding: 24px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #FFF;
+}
+
+/* The Vision of Future */
+
+.vision p {
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.vision-card-container {
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.vision-card {
+    padding: 32px;
+    border-radius: 16px;
+    border: 0px solid #5490F5;
+}
+
+.btn-blue {
+    background: #5490F5;
+}
+
+.btn-yelow {
+    background: #FFC239;
+}
+
+.quots {
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #FFF;
+    padding: 24px 24px;
+    position: relative;
+    margin-top: 32px;
+}
+
+.quots-icon {
+    position: absolute;
+    /* top: -23px; */
+}
+
+.quots-sub-title {
+    color: rgba(14, 14, 14, 0.60);
+    font-size: 16px;
+}
+
+/* Your Opinion style */
